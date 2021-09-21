@@ -10,5 +10,9 @@ setup(
     license='GPL version 2',
     packages=['unwicked'],
     zip_safe=False,
+    install_requires=[
+        'setuptools',
+        'plone.app.upgrade',
+    ],
     entry_points={'z3c.autoinclude.plugin': ['target = plone']},
     )
